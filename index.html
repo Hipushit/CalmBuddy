@@ -103,8 +103,21 @@
       </div>
     </div>
   </section>
-
-
+<!-- Contact Form -->
+<section class="py-12 px-4 bg-white" id="email">
+  <div class="container mx-auto max-w-xl rounded-2xl shadow p-8">
+    <h2 class="text-xl font-bold text-emerald-900 mb-4">Try CalmBuddy</h2>
+    <p class="mb-4">
+      <span class="font-semibold">We’d be grateful if you could rate this idea and tell us: would CalmBuddy help you if you experienced anxiety or discomfort on public transport?</span>
+    </p>
+    <form action="https://formspree.io/f/mqabkajl" method="POST" class="flex flex-col gap-4">
+      <input type="email" name="email" required placeholder="Your e-mail" class="px-4 py-3 rounded-lg border border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-700" />
+      <textarea name="message" required placeholder="Your feedback or your story…" rows="4" class="px-4 py-3 rounded-lg border border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-700"></textarea>
+      <button type="submit" class="bg-emerald-200 text-emerald-900 px-6 py-3 rounded-xl font-bold shadow hover:bg-emerald-300 transition">Send</button>
+      <p class="text-xs text-gray-500 mt-2">Your e-mail will not be shared with third parties</p>
+    </form>
+  </div>
+</section>
   <!-- Footer -->
   <footer class="bg-emerald-200 text-emerald-900 py-8 mt-8">
     <div class="container mx-auto flex flex-col items-center gap-2">
